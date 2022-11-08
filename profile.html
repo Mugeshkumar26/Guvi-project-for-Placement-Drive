@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<link rel="stylesheet" href="CSS/Profile.css">
+<script src="js/profile.js"></script>
+</head>
+<body>
+<center>
+   <div class="box" id="form">
+    <!-- <div id="form"> -->
+        <img src="https://img.favpng.com/8/21/20/smiley-icon-png-favpng-89pEBXEnYgQNm3V21gycAqkkc.jpg" class="avatar">
+      <form action="php/profile.php" method="post" name="form" onsubmit="return validated()">
+        <input type="text" placeholder="FirstName" class="form-control" name="FirstName" id="FirstName" required="" >
+        <input type="text" placeholder="LastName" class="form-control" name="LastName" id="LastName" required="" >
+        <input autocomplete="off" type="Email" placeholder="Email" class="form-control" name="Email" id="email_error" required="" >
+        <input type="text" placeholder="Password" name="Password" class="form-control" id="Pass_error" required="" >
+        <input id="phoneNumber_error" type="number" placeholder="PhoneNumber" class="form-control" name="PhoneNumber" >
+        <input type="text" placeholder="Address"class="form-control"  name="Address">
+        <button style="float: left;margin: 10px 0 0 18.2%;" type="submit" onclick="check()">UPDATE</button>
+        <button name="done" style="float: right;margin:10px 18.2% 0 0;" >GO BACK</button>
+    </form>
+   </div>
+   <script src="js/profile.js"></script>
+</center>
+</body>
+</html>

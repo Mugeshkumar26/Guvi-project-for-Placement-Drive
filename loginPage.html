@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Loginpage </title>
+    <link rel="stylesheet" type="text/css" href="CSS/Styles.css">
+    
+</head>
+<body>
+    <div class ="loginbox">
+    <img src="https://cdn4.iconfinder.com/data/icons/button-apps/2000/button_green__user-512.png" class="avatar">
+        <h1> Login Here </h1>
+        <form action="php/login.php" method="post" name="form" onsubmit="return validated()">
+            <p>Email</p>
+            <input autocomplete="off" type="Email" name="Email" placeholder="Enter Email">
+            <div id="email_error"> Please fill up your Email </div> <br>
+            <p>Password</p>
+            <input type="password" name="Password" placeholder="Enter Password">
+            <div id="pass_error"> Please fill up your Password </div> <br>
+            <input  type="submit" name="" value="Login">
+            <a href="#">Forget password?</a><br>
+            <a href="RegisterPage.html"> Haven't Registered yet?</a>
+        </form>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
