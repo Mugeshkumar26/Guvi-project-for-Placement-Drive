@@ -1,0 +1,130 @@
+body{
+    margin:0;
+    padding:0;
+    background:url(https://i.pinimg.com/originals/fd/eb/30/fdeb300b60003bc3132d9705936b5c95.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.loginbox{
+    width:320px;
+    height:520px;
+    background:#000;
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:70px 30px;
+}
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+}
+h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:30px;
+}
+.loginbox input[type="Email"], input[type="password" ]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background: transparent;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:16px;
+}
+.loginbox input[type="submit"]{
+    border : none;
+    outline: none;
+    height:40px;
+    background: #fb2525;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height:20px;
+    color:darkgrey;
+}
+.loginbox a:hover{
+    color:#ffc107;
+}
+.login_form #email_error,
+.login_form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 15px;
+    color:#fff
+}
+.container .index{
+    padding:20px;
+    background-color:var(--white);
+    box-shadow: var(--box-shadow);
+    text-align:center;
+    width:400px;
+    border-radius:5px;
+}
+.container .index img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:5px;
+}
+
+.container .index h3{
+    margin:5px 0;
+    font-size:20px;
+    color:#000;
+    color:var(--black);
+}
+.container .index p a {
+    color:var(--red);
+}
+.container .index .btn{
+    width: 160px;
+    height: 60px;
+    background: #00ff37;
+    border: 2px solid #00ff59;
+    margin-top: 13px;
+    color: rgb(6, 5, 5);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.index{
+    width:320px;
+    height:520px;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:70px 30px;
+}

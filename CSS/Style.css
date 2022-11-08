@@ -1,0 +1,39 @@
+.container{
+    margin-top: 35px;
+}
+body{
+    font-family:all;
+    background:rgba(2,0,36);
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://i.pinimg.com/originals/fd/eb/30/fdeb300b60003bc3132d9705936b5c95.jpg);
+}
+h1{
+    text-align: center;
+    color:#ffffff;
+}
+#form{
+    background-color:rgba(0,0,0,0.6);
+}
+.btn-info{
+    transition:0.5s ease-in-out;
+    background:rgb(2,0,36);
+    height:40px;
+    font-size:18px;
+    width:100%;
+}
+label{
+    color:#ffffff;
+
+}
+input:focus,input:hover{
+    border-color:none;
+    outline:none;
+    box-shadow:none;
+}
+.login_form #email_error,
+.login_form #pass_error,
+.login_form #PhoneNumber_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color:#ffffff;
+}
