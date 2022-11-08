@@ -14,7 +14,7 @@
       if($data['Password']===$Password){
         $_SESSION['Email']=$Email;
         //<a href="profile.php?<?php echo 'Email='.$Email?
-        header("location:https://github.com/Mugeshkumar26/Guvi-project-for-Placement-Drive.git");
+        header("http://localhost/project/index.html");
       }else{
         echo "<h2>Invalid Email or Password </h2>";
       }
