@@ -41,7 +41,7 @@
                         <input type="text" id="Address" name="Address" placeholder="Address" value="<?php echo $Address; ?>" required>
                     </div>
             <div>
-                <button type="submit" name="submit" class="btn">Update Profile</button>
+                <button type="submit" name="submit" class="btn"><a href="http://localhost/project/Home.html">LOG OUT</a></button>
             </div>
         </form>
     </div>
