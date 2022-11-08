@@ -10,7 +10,7 @@ include 'connection.php';
     $sql="INSERT INTO registration(FirstName, LastName, Email, Password, PhoneNumber, Address) values('$FirstName', '$LastName', '$Email', '$Password', '$PhoneNumber', '$Address')";
     $r=mysqli_query($con,$sql);
     if($r){
-        header("location:loginPage.html");
+        header("location:http://localhost/project/loginPage.html");
        // echo "Registered Sucessfully";
     }else{
         echo "Details Not Added";
